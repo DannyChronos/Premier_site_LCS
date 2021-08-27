@@ -1,0 +1,22 @@
+{
+  "name": "premier_site_lcs",
+  "version": "1.0.0",
+  "description": "Creer un site crypto avec des potes comme exo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannyChronos/Premier_site_LCS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannyChronos/Premier_site_LCS/issues"
+  },
+  "homepage": "https://github.com/DannyChronos/Premier_site_LCS#readme",
+  "dependencies": {
+    "bootstrap": "4.3.1"
+  }
+}
