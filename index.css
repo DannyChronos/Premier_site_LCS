@@ -7,7 +7,87 @@
 
 
 /*Paterne*/
-
+.logos{
+    height: 30px;
+    width: 30px;
+    
+    margin-left: 15px;
+    
+  }
+  .titre{
+    color: #005cbf;
+  
+   font-style:oblique;
+  
+  }
+  
+  
+  .Acceuil{
+    margin-left: 190px;
+    padding-top: 1%;
+    text-decoration: underline;
+    color: cornsilk;
+  }
+  .Inscription{
+    padding-top: 1%;
+    text-decoration: underline;
+    color: cornsilk;
+  }
+  .Connexion{
+    padding-top: 1%;
+    text-decoration: underline;
+    color: cornsilk;
+  }
+  .info{
+    text-align: center;
+   
+  }
+  .text{
+   font-size:x-small;
+   font-style: italic;
+   padding: 5%;
+   color:#000;
+  }
+  .info{
+    grid-auto-flow: column;
+  }
+  .entete{
+    background-color:#040505;
+  }
+  .conteneur{
+    overflow: hidden;
+    max-width: 960px;
+   
+    box-shadow: 0px 15px 10px -5px #777;
+    
+  }
+  .d1{
+    width: 500px;
+    height: 200px;
+    
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation:fondu 20s ease-in-out infinite both;
+  }
+  .d1:hover{
+    animation-play-state:running;
+  }
+  @keyframes fondu {
+    0%{background-image: url("1.jpg");}
+    33.33%{background-image: url("2.jpg");}
+    66.67%{background-image: url("3.jpg");}
+    100%{background-image: url("4.jpg");}
+    100%{background-image: url("5.jpg");}
+    
+  }
+  .centre{
+    background-color:darkblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40%;
+    
+  }
 
 
 
