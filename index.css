@@ -7,6 +7,9 @@
 
 
 /*Paterne*/
+.global{
+  margin-right: 15px;
+}
 .logos{
     height: 30px;
     width: 30px;
