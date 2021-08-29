@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DannyChronos/Premier_site_LCS#readme",
   "dependencies": {
-    "bootstrap": "4.3.1"
+    "bootstrap": "4.3.1",
+    "zingchart": "^2.9.6"
   }
 }
