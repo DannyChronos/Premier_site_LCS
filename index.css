@@ -1,4 +1,36 @@
 /*Dayane*/
+.dayane{
+  background-color: black;
+  height: 600px;
+}
+.graph{
+  height: 100px;
+}
+.part1{
+  background-color: aqua;
+  height: 600px;
+}
+.bitcoinGraphleft{
+  padding-bottom: 2%;
+  background: yellow;
+  height:550px;
+  border-bottom: 3px rgb(red, green, blue) solid;
+  color:blue;
+  list-style: none;
+  margin: 1em 0;
+  padding: 0em;
+  position: relative;
+}
+
+.bitcoinGraphleft li{
+  border-left: 3px solid black;
+  height: 50px;
+  padding:0,0,0,0;
+  margin: 0;
+  text-align: left;
+
+}
+
 
 
 
