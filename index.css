@@ -42,73 +42,105 @@
 .global{
   margin-right: 15px;
 }
-.logos{
-    height: 30px;
-    width: 30px;
-    
-    margin-left: 15px;
-    
-  }
   .titre{
-    color: #005cbf;
-  
-   font-style:oblique;
-  
-  }
-  
-  
-  .Acceuil{
-    margin-left: 190px;
-    padding-top: 1%;
+    color: rgba(190, 187, 9, 0.911);
+    font-family: Fontsalbo;
+    font-size: 75px;
+    font-style: italic;
     text-decoration: underline;
-    color: cornsilk;
   }
-  .Inscription{
+  @font-face {
+    font-family: FontOpen;
+    src: url(/polices/open/OpenSans-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: Fontlato;
+    src: url(/polices/lato/Lato-Italic.ttf);
+  }
+  @font-face {
+    font-family: FontOswald;
+    src: url(/polices/Oswald/Oswald-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: Fontsalbo;
+    src: url(/polices/salbo/Slabo27px-Regular.ttf);
+  }
+  @font-face {
+    font-family: FontRoboto;
+    src: url(/polices/roboto/Roboto-BoldItalic.ttf);
+  }
+  .roy{
+    font-family: FontOswald;
+    font-style: italic;
     padding-top: 1%;
-    text-decoration: underline;
-    color: cornsilk;
-  }
-  .Connexion{
-    padding-top: 1%;
-    text-decoration: underline;
-    color: cornsilk;
-  }
-  .info{
     text-align: center;
-   
+    background:linear-gradient(rgba(134, 136, 136, 0.699) 50%,white 85%);
+    margin-right: auto;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px -5px rgb(248, 242, 242);
+    border-radius: 0px;
+    border-right: 1px solid black;
+  }
+
+  .un{
+    text-align: left;
+  }
+
+  .menu{
+    padding-top: 2%;
+    padding-left: 10%;
+    width: 500px;
+    position:static;
   }
   .text{
-   font-size:x-small;
+    font-family:Fontlato;
    font-style: italic;
-   padding: 4%;
-   color:linear-gradient(white, rgb(6, 161, 161));
-   
+   color: rgb(221, 95, 11);
+   font-size: 20px;
+  text-decoration: underline;
   }
-  .info{
-    grid-auto-flow: column;
+  .script1{
+    padding-top:5%;
+    margin-left: 5%;
+  }
+  .centre{
+    text-align: center;
+    margin-left: 15%;
+  }
+  .salut{
+    font-family: Fontsalbo;
+    color: rgb(114, 201, 172);
+    background: linear-gradient(black 60%,rgb(8, 199, 224) 100%);
+    overflow: hidden;
+    box-shadow: 0px 20px 10px -5px black;
+    border-radius: 10px;
   }
   .entete{
     background-color:#040505;
+    height: 75px;
+    position: static;
   }
-  .conteneur{
-    overflow: hidden;
-    max-width: 960px;
-   
-    box-shadow: 0px 15px 10px -5px #777;
-    
+
+  .logo{
+    height: 75px;
+    position: static;
   }
-  .d1{
-    width: 500px;
-    height: 200px;
+
+  .img1{
+    height: 75px;
+    width: 75px;
+  }
+
+  .boruto{
+    height: 500px;
     
     box-shadow: 0px 15px 10px -5px #777;
     background-color: #EDEDED;
     background-size: contain;
     animation:fondu 20s ease-in-out infinite both;
   }
-  .d1:hover{
-    animation-play-state:running;
-  }
+
   @keyframes fondu {
     0%{background-image: url("1.jpg");}
     33.33%{background-image: url("2.jpg");}
@@ -117,13 +149,30 @@
     100%{background-image: url("5.jpg");}
     
   }
-  .centre{
-    
-    background: linear-gradient(white, rgb(6, 161, 161))
+
+
+  .boruto:hover{
+    animation-play-state:running;
+    height: 500px;
   }
 
+  .connexion{
 
+    margin-left: auto;
+    height: 500px;
+    padding-top: 2%;
+  }
 
+  .roy1{
+    border-left:1px white solid;
+    padding-left:4% ;
+    margin-right:auto;
+    text-align: center;
+    font-family: Fontlato;
+  }
+  .colo1{
+    color: rgb(0, 0, 0);
+  }
 /*Keyvan*/
 .newsletter{
   color: rgb(6, 158, 120);
