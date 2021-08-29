@@ -6,10 +6,7 @@
 .graph{
   height: 100px;
 }
-.part1{
-  background-color: aqua;
-  height: 600px;
-}
+
 .bitcoinGraphleft{
   padding-bottom: 2%;
   background: yellow;
@@ -43,9 +40,9 @@
   margin-right: 15px;
 }
   .titre{
-    color: rgba(190, 187, 9, 0.911);
-    font-family: Fontsalbo;
-    font-size: 75px;
+    color: rgb(255, 230, 1);
+    font-family: FontNeon;
+    font-size: 40px;
     font-style: italic;
     text-decoration: underline;
   }
@@ -69,8 +66,12 @@
     font-family: FontRoboto;
     src: url(/polices/roboto/Roboto-BoldItalic.ttf);
   }
+  @font-face {
+    font-family: FontNeon;
+    src: url(/polices/Neon/Neoneon.otf);
+  }
   .roy{
-    font-family: FontOswald;
+    font-family: FontNeon;
     font-style: italic;
     padding-top: 1%;
     text-align: center;
@@ -94,22 +95,22 @@
     position:static;
   }
   .text{
-    font-family:Fontlato;
+    font-family:FontOpen;
    font-style: italic;
    color: rgb(221, 95, 11);
    font-size: 20px;
   text-decoration: underline;
   }
   .script1{
-    padding-top:5%;
-    margin-left: 5%;
+    padding-top:10%;
+    margin: auto;
   }
   .centre{
     text-align: center;
-    margin-left: 15%;
+    margin: auto;
   }
   .salut{
-    font-family: Fontsalbo;
+    font-family: FontNeon;
     color: rgb(114, 201, 172);
     background: linear-gradient(black 60%,rgb(8, 199, 224) 100%);
     overflow: hidden;
@@ -117,9 +118,10 @@
     border-radius: 10px;
   }
   .entete{
-    background-color:#040505;
+    background:linear-gradient(black 30%,gray 80%);
+    background-size: cover;
     height: 75px;
-    position: static;
+    box-shadow: 0px 15px 10px -5px rgb(252, 246, 246);
   }
 
   .logo{
@@ -133,27 +135,26 @@
   }
 
   .boruto{
-    height: 500px;
-    
+    height: 600px;
     box-shadow: 0px 15px 10px -5px #777;
     background-color: #EDEDED;
-    background-size: contain;
+    background-size: cover;
+    image-resolution:10px;
     animation:fondu 20s ease-in-out infinite both;
   }
 
   @keyframes fondu {
-    0%{background-image: url("1.jpg");}
-    33.33%{background-image: url("2.jpg");}
-    66.67%{background-image: url("3.jpg");}
-    100%{background-image: url("4.jpg");}
-    100%{background-image: url("5.jpg");}
-    
+    0%{background-image: url("/1.jpg");}
+    33.33%{background-image: url("/2.jpg");}
+    66.67%{background-image: url("/3.jpg");}
+    100%{background-image: url("/4.jpg");}
+    100%{background-image: url("/5.jpg");}
   }
 
 
   .boruto:hover{
     animation-play-state:running;
-    height: 500px;
+    height: 600px;
   }
 
   .connexion{
@@ -165,10 +166,10 @@
 
   .roy1{
     border-left:1px white solid;
-    padding-left:4% ;
     margin-right:auto;
     text-align: center;
-    font-family: Fontlato;
+    font-style: oblique;
+    font-family: FontNeon;
   }
   .colo1{
     color: rgb(0, 0, 0);
