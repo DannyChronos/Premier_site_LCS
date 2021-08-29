@@ -112,7 +112,7 @@
     font-family: Fontsalbo;
     color: rgb(114, 201, 172);
     background: linear-gradient(black 60%,rgb(8, 199, 224) 100%);
-    overflow: hidden;
+    overflow:hidden;
     box-shadow: 0px 20px 10px -5px black;
     border-radius: 10px;
   }
