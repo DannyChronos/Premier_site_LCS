@@ -40,6 +40,8 @@
   margin-right: 15px;
 }
   .titre{
+    margin-left: 12PC;
+    text-align: center;
     color: rgb(255, 230, 1);
     font-family: FontNeon;
     font-size: 40px;
@@ -94,22 +96,32 @@
     width: 500px;
     position:static;
   }
-  .text{
+  .texte{
     font-family:FontOpen;
    font-style: italic;
    color: rgb(221, 95, 11);
    font-size: 20px;
   text-decoration: underline;
   }
-  .script1{
-    padding-top:10%;
-    margin: auto;
+  .script2{
+    width:25pc;
+    padding-top:3%;
+
+  }
+  .script1 {
+    width:50pc;
+    padding-top:5%;
+
   }
   .centre{
     text-align: center;
-    margin: auto;
+    margin-right:auto;
+    margin-left: 20pc;
   }
   .salut{
+    margin-left: 13pc;
+    text-align: center;
+    width: 10pc;
     font-family: FontNeon;
     color: rgb(114, 201, 172);
     background: linear-gradient(black 60%,rgb(8, 199, 224) 100%);
@@ -142,14 +154,19 @@
     image-resolution:10px;
     animation:fondu 20s ease-in-out infinite both;
   }
-
-  @keyframes fondu {
-    0%{background-image: url("/1.jpg");}
-    33.33%{background-image: url("/2.jpg");}
-    66.67%{background-image: url("/3.jpg");}
-    100%{background-image: url("/4.jpg");}
-    100%{background-image: url("/5.jpg");}
-  }
+  /*A−R−M−E−L−−C−A−R−O−U−S−E−L*/
+  
+  .carous{
+    width:90pc;
+    height: 20pc;
+}
+  /*@keyframes fondu {
+    0%{background-image: url("1.jpg");}
+    33.33%{background-image: url("2.jpg");}
+    66.67%{background-image: url("3.jpg");}
+    100%{background-image: url("4.jpg");}
+    100%{background-image: url("5.jpg");}
+  }*/
 
 
   .boruto:hover{
