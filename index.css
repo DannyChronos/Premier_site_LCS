@@ -1,3 +1,130 @@
+/*polices prédéfinis*/
+
+@font-face {
+  font-family: FontOpen;
+  src: url(/polices/open/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Fontlato;
+  src: url(/polices/lato/Lato-Italic.ttf);
+}
+@font-face {
+  font-family: FontOswald;
+  src: url(/polices/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Fontsalbo;
+  src: url(/polices/salbo/Slabo27px-Regular.ttf);
+}
+@font-face {
+  font-family: FontRoboto;
+  src: url(/polices/roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: FontNeon;
+  src: url(/polices/Neon/Neoneon.otf);
+}
+@font-face {
+  font-family: allura;
+  src: url(/polices/allura/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: audio;
+  src: url(/polices/audiowide/Audiowide-Regular.ttf);
+}
+@font-face {
+  font-family: bad;
+  src: url(/polices/bad/BadScript-Regular.ttf);
+}
+@font-face {
+  font-family: bangers;
+  src: url(/polices/bangers/);
+}
+@font-face {
+  font-family: berkshire;
+  src: url(/polices/berkshire/BerkshireSwash-Regular.ttf);
+}
+@font-face {
+  font-family: carbin;
+  src: url(/polices/carbin/CabinSketch-Bold.ttf);
+}
+@font-face {
+  font-family: coming;
+  src: url(/polices/coming/ComingSoon-Regular.ttf);
+}
+@font-face {
+  font-family: damion;
+  src: url(/polices/damion/Damion-Regular.ttf);
+}
+@font-face {
+  font-family: festive;
+  src: url(/polices/festive/Festive-Regular.ttf);
+}
+@font-face {
+  font-family: handle;
+  src: url(/polices/handle/Handlee-Regular.ttf);
+}
+@font-face {
+  font-family: homemade;
+  src: url(/polices/homemade/HomemadeApple-Regular.ttf);
+}
+@font-face {
+  font-family: monoton;
+  src: url(/polices/monoton/Monoton-Regular.ttf);
+}
+@font-face {
+  font-family: niconne;
+  src: url(/polices/niconne/Niconne-Regular.ttf);
+}
+@font-face {
+  font-family: nothing;
+  src: url(/polices/nothing/NothingYouCouldDo-Regular.ttf);
+}
+@font-face {
+  font-family: oleo;
+  src: url(/polices/oleo/OleoScript-Bold.ttf);
+}
+@font-face {
+  font-family: pangolin;
+  src: url(/polices/pangolin/Pangolin-Regular.ttf);
+}
+@font-face {
+  font-family: philosopher;
+  src: url(/polices/philosopher/Philosopher-BoldItalic.ttf);
+}
+@font-face {
+  font-family: playball;
+  src: url(/polices/playball/Playball-Regular.ttf);
+}
+@font-face {
+  font-family: reenie;
+  src: url(/polices/reenie/ReenieBeanie-Regular.ttf);
+}
+@font-face {
+  font-family: rock;
+  src: url(/polices/rock/RockSalt-Regular.ttf);
+}
+@font-face {
+  font-family: rye;
+  src: url(/polices/rye/Rye-Regular.ttf);
+}
+@font-face {
+  font-family: tangerine;
+  src: url(/polices/tangerine/Tangerine-Bold.ttf);
+}
+@font-face {
+  font-family: tourney;
+  src: url(/polices/tourney/Tourney-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: unica;
+  src: url(/polices/unica/UnicaOne-Regular.ttf);
+}
+@font-face {
+  font-family: vt;
+  src: url(/polices/vt/VT323-Regular.ttf);
+}
+
 /*Dayane*/
 .dayane{
   background-color: black;
@@ -36,44 +163,64 @@
 
 
 /*Paterne*/
-.global{
-  margin-right: 15px;
-}
+
   .titre{
-    margin-left: 12PC;
+    margin: auto;
     text-align: center;
-    color: rgb(255, 230, 1);
-    font-family: FontNeon;
+    color: rgb(5, 5, 5);
+    font-family: rye;
     font-size: 40px;
     font-style: italic;
     text-decoration: underline;
   }
-  @font-face {
-    font-family: FontOpen;
-    src: url(/polices/open/OpenSans-BoldItalic.ttf);
+
+  .titre1{
+    margin: auto;
+    text-align: center;
+    color: rgb(85, 148, 72);
+    font-family: rye;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
   }
-  @font-face {
-    font-family: Fontlato;
-    src: url(/polices/lato/Lato-Italic.ttf);
+  .titre2{
+    margin: auto;
+    text-align: center;
+    color: rgb(32, 80, 184);
+    font-family: rye;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
   }
-  @font-face {
-    font-family: FontOswald;
-    src: url(/polices/Oswald/Oswald-VariableFont_wght.ttf);
+  .titre3{
+    margin: auto;
+    text-align: center;
+    color: rgb(1, 255, 221);
+    font-family: rye;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
   }
-  @font-face {
-    font-family: Fontsalbo;
-    src: url(/polices/salbo/Slabo27px-Regular.ttf);
+  .titre4{
+    margin: auto;
+    text-align: center;
+    color: rgb(56, 56, 51);
+    font-family: rye;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
   }
-  @font-face {
-    font-family: FontRoboto;
-    src: url(/polices/roboto/Roboto-BoldItalic.ttf);
-  }
-  @font-face {
-    font-family: FontNeon;
-    src: url(/polices/Neon/Neoneon.otf);
+  .titre5{
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 230, 1);
+    font-family: rye;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
   }
   .roy{
-    font-family: FontNeon;
+    font-family: oleo;
     font-style: italic;
     padding-top: 1%;
     text-align: center;
@@ -83,7 +230,7 @@
     overflow: hidden;
     box-shadow: 0px 5px 10px -5px rgb(248, 242, 242);
     border-radius: 0px;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(0, 0, 0);
   }
 
   .un{
@@ -97,31 +244,80 @@
     position:static;
   }
   .texte{
-    font-family:FontOpen;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family:tangerine;
+   font-style: italic;
+   color: rgb(33, 34, 34);
+   font-size: 50px;
+  text-decoration: underline;
+  }
+  .texte1{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family:tangerine;
+   font-style: italic;
+   color: rgb(22, 9, 39);
+   font-size: 50px;
+  text-decoration: underline;
+  }
+  .texte2{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family:tangerine;
+   font-style: italic;
+   color: rgb(94, 94, 94);
+   font-size: 50px;
+  text-decoration: underline;
+  }
+  .texte3{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family:tangerine;
+   font-style: italic;
+   color: rgb(197, 21, 21);
+   font-size: 50px;
+  text-decoration: underline;
+  }
+  .texte4{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family:tangerine;
+   font-style: italic;
+   color: rgb(24, 24, 24);
+   font-size: 50px;
+  text-decoration: underline;
+  }
+  .texte5{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    font-family:tangerine;
    font-style: italic;
    color: rgb(221, 95, 11);
-   font-size: 20px;
+   font-size: 50px;
   text-decoration: underline;
   }
   .script2{
-    width:25pc;
-    padding-top:3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
   }
   .script1 {
-    width:50pc;
+    width:50px;
     padding-top:5%;
 
   }
   .centre{
     text-align: center;
-    margin-right:auto;
-    margin-left: 20pc;
+    margin: 5%;
+    margin-left: 10%;
   }
   .salut{
-    margin-left: 13pc;
+    margin-bottom: 10%;
+    margin-left: 35%;
     text-align: center;
-    width: 10pc;
+    width: 20%;
     font-family: FontNeon;
     color: rgb(114, 201, 172);
     background: linear-gradient(black 60%,rgb(8, 199, 224) 100%);
@@ -146,33 +342,28 @@
     width: 75px;
   }
 
-  .boruto{
+  /*.boruto{
     height: 600px;
     box-shadow: 0px 15px 10px -5px #777;
-    background-color: #EDEDED;
+    background-color:black;
     background-size: cover;
     image-resolution:10px;
     animation:fondu 20s ease-in-out infinite both;
   }
-  /*A−R−M−E−L−−C−A−R−O−U−S−E−L*/
-  
-  .carous{
-    width:90pc;
-    height: 20pc;
-}
-  /*@keyframes fondu {
+
+  @keyframes fondu {
     0%{background-image: url("1.jpg");}
     33.33%{background-image: url("2.jpg");}
     66.67%{background-image: url("3.jpg");}
     100%{background-image: url("4.jpg");}
     100%{background-image: url("5.jpg");}
-  }*/
+  }
 
 
   .boruto:hover{
     animation-play-state:running;
     height: 600px;
-  }
+  }*/
 
   .connexion{
 
@@ -186,12 +377,21 @@
     margin-right:auto;
     text-align: center;
     font-style: oblique;
-    font-family: FontNeon;
+    font-family: bad;
+    font-size: 15px;
   }
   .colo1{
-    color: rgb(0, 0, 0);
+    color: rgb(12, 106, 112);
   }
+  .img20{
+    height: 550px;
+  }
+  .yosh{
+    margin-top: 50%;
+  }
+
 /*Keyvan*/
+
 .newsletter{
   color: rgb(6, 158, 120);
   height: 200px;
