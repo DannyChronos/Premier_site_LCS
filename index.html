@@ -17,7 +17,6 @@
     </div>
 
     <div class="Paterne">
-      <div class="container-fluide">
         <div class="row">
             <div class="col-12">
                 <div class="row">
@@ -38,8 +37,42 @@
                         </div>
                         <div class="col-2 connexion">
                             <div class="row">
-                                <div class="col-4 roy1"><a href="connexion.html"> Log in</a></div>
-                                <div class="col-4 roy1 bor"><a href="connexion.html"> Sign in</a></div>
+                                <div class="col-6 roy1">
+                                    <p id="inazuma" class="inazuma">Sign in</p>
+                                    <div id="young" class="young">
+                                        <div id="popup1" class="popup1"> 
+                                            <span class="formulaire">
+                                                <fieldset>
+                                                    <legend><h1>Inscription</h1></legend>
+                                                        <form action="index.html" method="POST">
+                                                            <p>Username: <input type="text"></p>
+                                                            <p>Email: <input type="email"></p>
+                                                            <p>Password: <input type="password"></p>
+                                                            <input type="button" value="Sign in" id="jugo" class="jugo">
+                                                        </form>
+                                                </fieldset>
+                                            </span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-5 roy1">
+                                    <p id="btnPopup" class="btnPopup"> Login</p>
+                                    <div id="overlay" class="overlay">
+                                        <div id="popup" class="popup"> 
+                                            <span id="btnClose" class="btnClose">&times;</span>
+                                            <span class="formulaire">
+                                                <fieldset>
+                                                    <legend><h1>Connexion</h1></legend>
+                                                        <form action="index.html" method="POST">
+                                                            <p>Username or Email: <input type="text email"></p>
+                                                            <p>Password: <input type="password"></p>
+                                                    <input type="button" value="Login" id="btn" class="btn">
+                                                        </form>
+                                                </fieldset>
+                                            </span>
+                                        </div>
+                                    </div>    
+                                </div>
                             </div>
                         </div>
                      </div>
@@ -47,7 +80,7 @@
                 </div>                        
             </div>
         </div>
-      </div>  
+       
       <div class="container-fluide">
         <div id="demo" class="carousel slide" data-ride="carousel" data-interval="4000">
           <ul class="carousel-indicators">
@@ -262,6 +295,7 @@
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>

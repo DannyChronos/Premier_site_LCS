@@ -241,7 +241,6 @@
     padding-top: 2%;
     padding-left: 10%;
     width: 500px;
-    position:static;
   }
   .texte{
     margin-bottom: 10%;
@@ -330,6 +329,8 @@
     background-size: cover;
     height: 75px;
     box-shadow: 0px 15px 10px -5px rgb(252, 246, 246);
+    z-index: 30;
+    position: fixed;
   }
 
   .logo{
@@ -373,21 +374,22 @@
   }
 
   .roy1{
-    border-left:1px white solid;
-    margin-right:auto;
+    border-left:2px white solid;
+    color: rgb(202, 190, 14);
+    height: 30px;
     text-align: center;
     font-style: oblique;
-    font-family: bad;
-    font-size: 15px;
+    font-family: vt;
+    font-size: 20px;
   }
   .colo1{
     color: rgb(12, 106, 112);
   }
   .img20{
-    height: 550px;
+    height: 650px;
   }
   .yosh{
-    margin-top: 50%;
+    margin-top: 70%;
   }
 
 /*Keyvan*/
@@ -407,4 +409,82 @@ footer{
 }
 
 
-/*Fin*/
+/*Connection*/
+
+
+.overlay {
+  position: fixed;
+  left: 0px;
+  top:0px;
+  background-color: rgba(0,0 ,0 , 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  display: none;
+  }
+.young{
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+    display: block;
+}
+
+
+.popup{
+margin: auto;
+margin-top: 10%;
+width : 500px;
+height: 300px;
+background-color: rgb(0, 149, 255);
+padding: 1em;
+box-shadow: 0 15px 20px rgba(255, 255, 255, 0.664);
+border-radius: 5px;
+}
+
+.popup1{
+  margin: auto;
+  margin-top: 10%;
+  width : 500px;
+  height: 300px;
+  background-color: rgb(28, 78, 36);
+  padding: 1em;
+  box-shadow: 0 15px 20px rgba(255, 255, 255, 0.664);
+  border-radius: 5px;
+  }
+
+.btnClose {
+float: right;
+font-size:16pt;
+cursor: pointer;
+color: rgb(219, 205, 10);
+}
+.btnPopup{
+  /*background-color: orangered;*/
+  cursor: pointer;
+  }
+  .btnPopup:hover{
+      background-color: rgba(192, 192, 192, 0.521);
+  }
+  .inazuma{
+    cursor: pointer;
+    }
+    .inazuma:hover{
+        background-color: rgba(192, 192, 192, 0.521);
+    }
+  .btn{
+    background-color: gray;
+    color: aqua;
+    cursor: pointer;
+  }
+  .jugo{
+    background-color: gray;
+    color: aqua;
+    cursor: pointer;
+  }
+  .fomulaire{
+    margin: auto;
+  }
