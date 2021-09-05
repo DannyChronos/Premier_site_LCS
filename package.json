@@ -2,7 +2,7 @@
   "name": "premier_site_lcs",
   "version": "1.0.0",
   "description": "Creer un site crypto avec des potes comme exo",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/DannyChronos/Premier_site_LCS#readme",
   "dependencies": {
-    "bootstrap": "4.3.1",
-    "zingchart": "^2.9.6"
+    "bootstrap": "4.3.1"
   }
 }
